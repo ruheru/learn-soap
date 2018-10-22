@@ -22,7 +22,7 @@ public class WaktuController {
 	@GetMapping("/appInfo")
 	public Map<String, String> getAppInfo(@RequestParam(required =false)  String nama){
 		Map<String, String> data = new LinkedHashMap<>();
-		data.put("application.name", "Aplikasi SIUP");
+		data.put("application.name", "Aplikasi SIUPz");
 		data.put("application.version", "1.0.0");
 		data.put("last update", "2018-01-02");
 		data.put("nama", nama);
